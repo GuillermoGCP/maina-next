@@ -1,22 +1,11 @@
 import Image from 'next/image'
 import FloatingButton from './FloatingButton'
-import Paragraph from './Paragrath'
-import Banner from './Banner'
+import Paragraph from './Paragraph'
+import { introTitle, textBlocks } from '../data/textMain'
 
 const MainComponent = () => {
-  const textBlocks = [
-    'Maina es más que un restaurante; es un rincón acogedor donde la cocina de mercado se combina con el cariño de un trato cercano...',
-    'Nuestra cocina es honesta, saludable y llena de matices...',
-  ]
-
-  const introTitle = {
-    normal: 'Descubre el',
-    highlight: 'placer de la',
-    end: ' cocina de proximidad.',
-  }
   return (
     <main className='flex-1'>
-      <Banner />
       <div className='main-section bg-[#f5f5f5] py-6 px-4 text-center min-h-[calc(100vh-150px)]'>
         <div className='relative w-screen h-[80vh] overflow-hidden'>
           <Image
@@ -26,7 +15,7 @@ const MainComponent = () => {
             className='object-cover'
             priority
           />
-          <FloatingButton text='Reservas' link='./reservations.html' />
+          <FloatingButton text='Reservas' link='./reservations' />
         </div>
         <Paragraph titleParts={introTitle} paragraphs={textBlocks} />
 
