@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <>
       <WaveDivider />
-      <footer className='bg-[#515d4f] text-white py-10 px-6 text-sm'>
-        <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12'>
+      <footer className='bg-[#515d4f] text-white py-10 px-6 text-xs lg:text-sm font-light'>
+        <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 text-center '>
           {/* Dirección y contacto */}
-          <div className='space-y-3 text-center md:text-left'>
-            <h3 className='text-lg font-semibold uppercase tracking-wide'>
+          <div className='space-y-3 md:text-right'>
+            <h3 className='text-lg font-semibold uppercase tracking-wide '>
               Maina gastronomía
             </h3>
             <p>Avenida del Ferrol 7, 15706</p>
@@ -25,8 +25,8 @@ const Footer = () => {
           </div>
 
           {/* Horarios */}
-          <div className='space-y-3 text-center md:text-left'>
-            <h3 className='text-lg font-semibold uppercase tracking-wide'>
+          <div className='space-y-3 md:text-left'>
+            <h3 className='text-lg font-semibold uppercase tracking-wide '>
               Horario
             </h3>
             <ul className='space-y-1'>

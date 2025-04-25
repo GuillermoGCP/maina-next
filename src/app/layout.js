@@ -1,22 +1,19 @@
-import { Geist, Geist_Mono, Roboto } from 'next/font/google'
+import { Inter, Roboto } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import ScrollToTopButton from '@/components/ScrollToTopButton'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const inter = Inter({
   subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
 })
 const roboto = Roboto({
-  variable: '--font-roboto',
   subsets: ['latin'],
+  variable: '--font-roboto',
+  display: 'swap',
 })
-
 export const metadata = {
   title: 'Maina Gastronomía',
   description: 'Restaurante de comida mediterránea, española y contemporánea',
@@ -24,12 +21,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}
-      >
+    <html
+      lang='en'
+      className={`antialiased ${inter.variable} ${roboto.variable}`}
+    >
+      <body>
         <Header />
         {children}
+        <ScrollToTopButton />
         <Footer />
       </body>
     </html>
