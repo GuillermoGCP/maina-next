@@ -35,7 +35,21 @@ yarn-error.log*
 
 # vercel
 .vercel
+deploy.js
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# backups de VSCode o editores
+*.swp
+*.swo
+*.bak
+*.tmp
+Thumbs.db
+ehthumbs.db
+
+
+# FTP Simple plugin (VS Code)
+.vscode/ftp-simple.json
+.vscode/sftp.json
