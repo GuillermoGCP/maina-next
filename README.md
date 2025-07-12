@@ -28,15 +28,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Static export
-
-This project is configured to generate a static site. Run the build command and the exported files will be available in the `out` directory:
-
-```bash
-npm run build
-```
-
-The contents of the `out` folder can be uploaded to any static hosting provider, such as Plesk.
-
-`next/image` was replaced with standard `img` tags so that the exported HTML works without additional configuration.
