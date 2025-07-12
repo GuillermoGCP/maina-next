@@ -9,7 +9,7 @@ const MainComponent = () => {
       <div className='main-section bg-[#f5f5f5] py-6 px-4 text-center min-h-[calc(100vh-150px)]'>
         <div className='relative w-screen h-[80vh] overflow-hidden'>
           <Image
-            src='/images/sala3-comp.jpeg'
+            src='/main.jpeg'
             alt='Imagen de la sala principal del restaurante Maina'
             fill
             className='object-cover'
@@ -21,14 +21,14 @@ const MainComponent = () => {
 
         <div className='my-6 flex flex-col gap-6 items-center'>
           <Image
-            src='/images/Maina-Gastronomia67.jpeg'
+            src='/main02.jpeg'
             alt='Imagen del restaurante'
             width={800}
             height={600}
             className='rounded-lg shadow-md w-full max-w-[80%] h-auto'
           />
           <Image
-            src='/images/Maina-Gastronomia74.jpeg'
+            src='/main03.jpeg'
             alt='Otra imagen del restaurante'
             width={800}
             height={600}

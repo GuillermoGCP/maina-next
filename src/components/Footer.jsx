@@ -14,7 +14,7 @@ const Footer = () => {
             <p>Avenida del Ferrol 7, 15706</p>
             <p>Santiago de Compostela, Galicia</p>
             <p>
-              <strong>Teléfono de reservas:</strong>{' '}
+              <strong>Teléfono de reservas/WhatsApp:</strong>{' '}
               <a
                 href='tel:+34881302851'
                 className='hover:underline text-yellow-400 transition-colors duration-200'
