@@ -16,7 +16,7 @@ const Us = () => {
       </div>
 
       <img
-        src='/images/187.jpeg'
+        src='/quienes-somos.jpeg'
         alt='Imagen de la sala principal del restaurante Maina'
         className='mx-auto rounded-2xl shadow-lg max-w-full h-auto'
       />

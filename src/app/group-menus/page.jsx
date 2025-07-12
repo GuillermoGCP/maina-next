@@ -10,7 +10,7 @@ const GroupMenus = () => {
   ]
 
   return (
-    <div className="bg-[#f9f9f9] bg-[url('/images/sala2.jpg')] bg-cover bg-center bg-no-repeat">
+    <div className="bg-[#f9f9f9] bg-[url('/hall02.jpg')] bg-cover bg-center bg-no-repeat">
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 justify-center items-start p-8 min-h-[300px] mx-auto max-w-[1100px]'>
         {menus.map((menu, i) => {
           const isLast = i === menus.length - 1

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import NavMenu from './NavMenu'
 import SocialNetIcons from './SocialNetIcons'
-import Banner from './Banner'
+// import Banner from './Banner'
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
 
         <div className='relative md:basis-1/4 h-20 md:h-28 flex justify-center items-center min-w-[165px] min-h-[108px]'>
           <Image
-            src='/images/maina2.jpg'
+            src='/logo.jpg'
             alt='Logo del restaurante Maina'
             fill
             className='object-contain'

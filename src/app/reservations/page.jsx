@@ -1,6 +1,6 @@
 const Reservations = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center text-center p-5 mx-auto bg-[#f9f9f9] min-h-[300px] bg-[url('/images/cocineros.jpg')] bg-cover bg-center bg-no-repeat">
+    <div className="relative flex flex-col items-center justify-center text-center p-5 mx-auto bg-[#f9f9f9] min-h-[300px] bg-[url('/reservation.jpg')] bg-cover bg-center bg-no-repeat">
       {/* Overlay */}
       <div className='absolute inset-0 bg-black/50 z-10' />
 
