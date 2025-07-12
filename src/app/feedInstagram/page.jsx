@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { FaInstagram } from 'react-icons/fa'
 import instagramPosts from '../../data/instagramBlocks'
 import Paragraph from '@/components/Paragraph'
@@ -23,7 +22,7 @@ const FeedInstagram = () => {
               className='h-[420px] flex flex-col justify-between'
             >
               <a href={post.url} target='_blank' rel='noopener noreferrer'>
-                <Image
+                <img
                   src={post.image}
                   alt={post.alt}
                   width={600}

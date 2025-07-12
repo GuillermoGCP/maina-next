@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const FloatingButton = ({ text, link }) => {
   return (
     <a
