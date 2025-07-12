@@ -10,7 +10,7 @@ const FeedInstagram = () => {
     end: ' platos.',
   }
   return (
-    <div className='px-4 py-12 bg-[#f9f9f9] bg-[url("/images/sala2.jpg")] bg-cover bg-center bg-no-repeat'>
+    <div className='px-4 py-12 bg-[#f9f9f9] bg-[url("/hall01.jpg")] bg-cover bg-center bg-no-repeat'>
       <div className='max-w-6xl mx-auto text-center bg-white/85 rounded-4xl overflow-hidden'>
         <div className='mb-8 p-6'>
           <Paragraph titleParts={introTitle} />
