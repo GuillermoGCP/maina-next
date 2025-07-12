@@ -12,7 +12,7 @@ const MainComponent = () => {
             alt='Imagen de la sala principal del restaurante Maina'
             className='object-cover w-full h-full'
           />
-          <FloatingButton text='Reservas' link='./reservations' />
+          <FloatingButton text='Reservas' link='/reservations' />
         </div>
         <Paragraph titleParts={introTitle} paragraphs={textBlocks} />
 
