@@ -1,11 +1,11 @@
 import NavMenu from './NavMenu'
 import SocialNetIcons from './SocialNetIcons'
-// import Banner from './Banner'
+import Banner from './Banner'
 
 const Header = () => {
   return (
     <>
-      {/* <Banner /> */}
+      <Banner />
       <header className='w-full flex items-center justify-around px-6 py-4 bg-[#515d4f] shadow-md h-[20vh] gap-2 basis-1/4 relative'>
         <div className='md:basis-1/4'>
           <SocialNetIcons />
