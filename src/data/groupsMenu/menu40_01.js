@@ -1,36 +1,30 @@
 const menu40_01 = [
   {
-    title: 'Aperitivo',
-    items: ['Paté de sardinas'],
-  },
-  {
-    title: 'Para compartir',
+    title: 'Para empezar y compartir',
     items: [
-      'Puerros asados, espuma de queso San Simón, papada ibérica y vinagreta de tomate seco',
-      'Terrina de foie y tostadas de pan brioche',
-      'Tartar de atún, huevo frito y guacamole con emulsión de chipotles',
+      'Croquetas cremosas de jamón ibérico',
+      'Berenjena asada y glaseada con brotes y queso galmesano',
+      'Tartar de atún atlántico, huevo frito y guacamole',
     ],
   },
   {
-    title: 'Segundos a elegir',
+    title: 'Principal a elegir',
     items: [
-      'Lubina salvaje, chirivía y tempura de verduras de invierno',
-      'Ragout de jabalí y ñoquis a la trufa',
+      'Corvina asada, trinxat y ajada',
+      'Jarrete de ternera, patatas asadas y pimientos',
     ],
   },
   {
-    title: 'Postre',
-    items: ['Cremoso de cacao, frutos rojos y naranja sanguina'],
+    title: 'Dulce',
+    items: ['La merienda de Maina'],
   },
   {
     title: 'Bodega',
-    items: ['Refrescos, cerveza y agua', 'Café'],
+    items: ['Vinos, aguas, pan y café incluido'],
   },
   {
-    title: '',
-    items: [
-      '*Por favor, comunícanos cualquier alergia o intolerancia para que puedas disfrutar de tu experiencia sin preocupaciones. No dudes en contactar con nosotros para cualquier consulta.',
-    ],
+    title: 'Precio',
+    items: ['45€ por persona'],
   },
 ]
 
