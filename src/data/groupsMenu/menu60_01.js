@@ -1,42 +1,30 @@
 const menu60_01 = [
   {
-    title: 'Aperitivo',
-    items: ['Paté de sardinas'],
-  },
-  {
-    title: 'Para empezar',
-    items: ['Vieira de Cambados asada, emulsiones y cítricos'],
-  },
-  {
-    title: 'Para compartir',
+    title: 'Para empezar y compartir',
     items: [
-      'Terrina de foie con pan brioche',
-      'Puerros asados, espuma de queso San Simón, papada ibérica y vinagreta de tomate seco',
-      'Tartar de atún, huevo frito y guacamole con emulsión de chipotles',
+      'Escabeche de setas',
+      'Berenjena glaseada y ajo negro',
+      'Tempura de trigueros e hinojo',
     ],
   },
   {
-    title: 'Segundos a elegir',
+    title: 'Principal a elegir',
     items: [
-      'Lubina salvaje, chirivía y tempura de verduras de invierno',
-      'Ragout de jabalí y ñoquis a la trufa',
+      'Fabas de Lourenzá con calabizo',
+      'Arroz seco de verduras de otoño',
     ],
   },
   {
-    title: 'Postre',
-    items: [
-      'Torrija de pan brioche, leche kelekoi, toffee de yuzu y helado de lavanda',
-    ],
+    title: 'Dulce',
+    items: ['Aguacate, frutos rojos y limón'],
   },
   {
     title: 'Bodega',
-    items: ['Refrescos, cerveza y agua', 'Café'],
+    items: ['Vinos, aguas, pan y café incluido'],
   },
   {
-    title: '',
-    items: [
-      '*Por favor, comunícanos cualquier alergia o intolerancia para que puedas disfrutar de tu experiencia sin preocupaciones. No dudes en contactar con nosotros para cualquier consulta.',
-    ],
+    title: 'Precio',
+    items: ['40€ por persona'],
   },
 ]
 

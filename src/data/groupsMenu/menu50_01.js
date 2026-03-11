@@ -1,36 +1,30 @@
 const menu50_01 = [
   {
-    title: 'Aperitivo',
-    items: ['Paté de sardinas'],
-  },
-  {
-    title: 'Para compartir',
+    title: 'Para empezar y compartir',
     items: [
-      'Verduras de invierno en menestra, romesco y crema de almendra',
-      'Tataki de croca de vaca de Bandeira, shiitakes y salsa teriyaki',
-      'Tartar de atún rojo, huevo frito y guacamole con emulsión de chipotles',
+      'Croquetas de jamón ibérico',
+      'Puerros asados, escabeche de tomate seco y boletus',
+      'Terrina de foie casero y pan brioche',
     ],
   },
   {
-    title: 'Segundos a elegir',
+    title: 'Principal a elegir',
     items: [
-      'Lubina salvaje, chirivía y tempura de verduras de invierno',
-      'Lomo bajo de ternera, patatas fritas y shiitakes',
+      'Lubina asada a la marinera',
+      'Picaña de vaca madurada, jugo y verduras de temporada',
     ],
   },
   {
-    title: 'Postre',
-    items: ['Tarta tatin de manzana con vainilla'],
+    title: 'Dulce',
+    items: ['Milhoja de crema y nata'],
   },
   {
     title: 'Bodega',
-    items: ['Refrescos, cerveza y agua', 'Café'],
+    items: ['Vinos, aguas, pan y café incluido'],
   },
   {
-    title: '',
-    items: [
-      '*Por favor, comunícanos cualquier alergia o intolerancia para que puedas disfrutar de tu experiencia sin preocupaciones. No dudes en contactar con nosotros para cualquier consulta.',
-    ],
+    title: 'Precio',
+    items: ['55€ por persona'],
   },
 ]
 

@@ -4,9 +4,9 @@ import { twMerge } from 'tailwind-merge'
 
 const GroupMenus = () => {
   const menus = [
-    { data: menu40_01, price: 40 },
-    { data: menu50_01, price: 50 },
-    { data: menu60_01, price: 60 },
+    { data: menu40_01, price: 45 },
+    { data: menu50_01, price: 55 },
+    { data: menu60_01, price: 40 },
   ]
 
   return (
