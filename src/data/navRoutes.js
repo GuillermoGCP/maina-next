@@ -1,6 +1,6 @@
 const elementsArr = [
   { text: 'Inicio', link: '/' },
-  { text: 'Reservas', link: 'https://getplacein.com/bp/restaurante-maina' },
+  { text: 'Reservas', link: '/reservations' },
   {
     text: 'Carta',
     link: 'https://maina.solo.revointouch.works/maina/digital-menu',

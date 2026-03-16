@@ -11,12 +11,7 @@ const Reservations = () => {
         </h1>
 
         <div className='w-full'>
-          <iframe
-            id='restaurante-maina'
-            title='Reservas'
-            src='https://www.covermanager.com/reservation/module_restaurant/restaurante-maina/spanish'
-            className='w-full h-[800px] border-none'
-          />
+          <div id='placein-reservations' />
         </div>
       </div>
     </div>
