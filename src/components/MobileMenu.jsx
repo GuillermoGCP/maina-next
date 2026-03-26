@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { FiMenu, FiX } from 'react-icons/fi'
 import { twMerge } from 'tailwind-merge'
 
-const MobileMenu = ({ elementsArr }) => {
+const MobileMenu = ({ elementsArr, onOpenContactModal }) => {
   const [isOpen, setIsOpen] = useState(false)
   const pathname = usePathname()
 
@@ -38,9 +38,22 @@ const MobileMenu = ({ elementsArr }) => {
                     : 'hover:text-yellow-300 hover:font-semibold hover:bg-[#6b786a] hover:px-3 hover:py-1 hover:rounded-md'
                 )}
               >
-                <Link href={element.link} onClick={() => setIsOpen(false)}>
-                  {element.text}
-                </Link>
+                {element.action === 'contact-modal' ? (
+                  <button
+                    type='button'
+                    onClick={() => {
+                      setIsOpen(false)
+                      onOpenContactModal()
+                    }}
+                    className='w-full text-left cursor-pointer'
+                  >
+                    {element.text}
+                  </button>
+                ) : (
+                  <Link href={element.link} onClick={() => setIsOpen(false)}>
+                    {element.text}
+                  </Link>
+                )}
               </li>
             )
           })}
