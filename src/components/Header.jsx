@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <>
       {/* <Banner /> */}
-      <header className='w-full flex items-center justify-around px-6 py-4 bg-[#515d4f] shadow-md h-[20vh] gap-2 basis-1/4 relative'>
-        <div className='md:basis-1/4'>
+      <header className='w-full grid grid-cols-3 items-center px-6 py-4 bg-[#515d4f] shadow-md h-[20vh] relative'>
+        <div className='flex justify-start'>
           <SocialNetIcons />
         </div>
 
-        <div className='relative md:basis-1/4 h-20 md:h-28 flex justify-center items-center min-w-[165px] min-h-[108px]'>
+        <div className='flex justify-center h-20 md:h-28'>
           <img
             src='/logo.jpg'
             alt='Logo del restaurante Maina'
@@ -19,7 +19,9 @@ const Header = () => {
           />
         </div>
 
-        <NavMenu />
+        <div className='flex justify-end'>
+          <NavMenu />
+        </div>
       </header>
     </>
   )

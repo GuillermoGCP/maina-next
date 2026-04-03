@@ -6,7 +6,7 @@ const MainComponent = () => {
   return (
     <main className='flex-1'>
       <div className='main-section bg-[#f5f5f5] py-6 px-4 text-center min-h-[calc(100vh-150px)]'>
-        <div className='relative w-screen h-[80vh] overflow-hidden'>
+        <div className='relative w-full h-[80vh] overflow-hidden'>
           <img
             src='/main.jpeg'
             alt='Imagen de la sala principal del restaurante Maina'
