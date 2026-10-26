@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import WaveDivider from './WaveDivider'
 
 const Footer = () => {
@@ -42,6 +43,25 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+        <div className='max-w-6xl mx-auto mt-10 border-t border-white/20 pt-8 text-center'>
+          <a
+            href='/Cartel%20informativo%209.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label='Abrir cartel informativo en PDF (se abre en una nueva pestaña)'
+            className='mx-auto block max-w-[220px] rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-yellow-400'
+          >
+            <Image
+              src='/cartel-informativo-9.png'
+              alt='Cartel de ayudas a la contratación de personas desempleadas. Galicia Suma Talento: Emprégate, 2026.'
+              width={1786}
+              height={1263}
+              unoptimized
+              className='w-full h-auto rounded-sm'
+            />
+          </a>
         </div>
       </footer>
     </>
